@@ -1,0 +1,12 @@
+echo $PATH
+echo $HOME
+
+Add binaries to path
+
+1. entry to file .bashrc (linux) or zshrc (mac)
+2. add alias:
+ 	alias l='ls -lh'
+3. Add environment variable
+	VAR_PEPE="Hello"
+4. Add binaries
+	PATH=$PATH:/home/metano/.../

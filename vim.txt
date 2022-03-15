@@ -1,0 +1,8 @@
+Hello this is my closed to
+to entry a mode inster press (i)
+remove line with 2 times key D
+Key esc to navigate in documen
+T
+Write esc -> :w
+leave esc -> :q
+force exit esc -> :qw!

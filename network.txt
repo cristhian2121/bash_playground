@@ -1,0 +1,9 @@
+# get something from web (www) and save this file
+wget URL
+
+# computers route from request to response
+traceroute www.google.com
+
+# Show networks 
+nestat -i
+

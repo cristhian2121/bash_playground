@@ -1,0 +1,14 @@
+# compress -C   -V vervouse   -f file
+tar -cvf toCompress.tar toCompress.tar
+# uncompress  -x  uncompress
+tar -xvf toCompress.tar toCompress.tar
+
+# better algorith to compress gz instend tar
+tar -cvzf toCompress.tar toCompress.tar.tz
+# uncompress
+tar -xvzf toCompress.tar toCompress.tar.tz
+
+# zip compress
+zip pepe.txt
+# uncompress
+unzip pepe.tzt

@@ -1,0 +1,14 @@
+#top, htop
+
+# Show current jobs (command that run in background from our terminal)
+jobs
+
+# send proccess from terminal to background
+- cat > mi_nota.txt &
+- Exit process with Ctrl+D
+	# is prosible run that command in background with: bg NUMBER_JOB
+	# example bg 1  (in ZSH bg %1)
+
+# send from background to foregrount (current terminal)
+#fg NUMBER_JOB
+fg 1

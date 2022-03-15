@@ -1,0 +1,3 @@
+ln -s Documents/projects Pepelink
+
+symbolic link doesn't have permissions

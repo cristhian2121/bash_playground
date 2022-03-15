@@ -1,0 +1,7 @@
+find ~/Projects/courses/ -type d -name node_modules
+find ~/Projects/c -size 500M
+
+which python3 # search binary of python
+
+# Remove all node_module folders
+find ~/Projects/courses/ -name node_modules -type d -exec rm -rf {} \;

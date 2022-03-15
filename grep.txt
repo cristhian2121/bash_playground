@@ -1,0 +1,7 @@
+# count forech considencial with word "the"
+grep -ci the movies.csv
+# movies that no ir related with work "the"  i-> insensitive
+greo -vi tower movies.csv
+
+# show ->   lines | words | bytes
+wc find.txt
